@@ -13,6 +13,7 @@ export default function PaginaInicial() {
         <h2 className={styles.tituloPrincipal}>ACESSO RÁPIDO</h2>
       </div>
       <div className={styles.caixa}></div>
+      
     </div>
   );
 }
