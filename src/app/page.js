@@ -13,23 +13,21 @@ export default function PaginaInicial() {
       <div className={styles.abaLateral}></div>
 
       <div className={styles.conteudo}> 
-        <h2 className={styles.tituloPrincipal}>ACESSO RÁPIDO</h2>
-
-        {/* Caixinha de desempenho */}
         <div className={styles.caixaDesempenho}>
-          <h3 className={styles.tituloCaixa}>VISÃO GERAL DO SEU DESEMPENHO</h3>
+           <div className={styles.logoContainer}>
+            <Image
+              src="/img/logo-estuda.png" // Caminho relativo à pasta public
+              alt="Logo Estuda+"
+              width={50}
+              height={50}
+            />
+            <h2 className={styles.logoTexto}>ESTUDA+</h2>
+            <p className={styles.logoSubtexto}>SEJA BEM-VINDO!</p>
+          </div>
           <div className={styles.metricas}>
             <div className={styles.item}>
-              <div className={styles.subtitulo}>Taxa de Acertos</div>
-              <div className={styles.percentualAcerto}>56%</div>
-              <p className={styles.detalhe}>Você acertou 51 questões</p>
-              <div className={styles.iconeVerde}>✔</div>
-            </div>
+            </div>  
             <div className={styles.item}>
-             {/* <div className={styles.subtitulo}>Taxa de Erros</div> 
-              <div className={styles.percentualErro}>44%</div> 
-              <p className={styles.detalhe}>Você errou 40 questões</p>
-              <div className={styles.iconeVermelho}>✘</div>*/}
             <Caixa2/>
             </div>
           </div>

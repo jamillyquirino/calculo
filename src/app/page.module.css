@@ -6,7 +6,7 @@
   display: flex;
   width: 50px;
   height: 50px;
-  background-color: #FFBEDD;
+  background-color: #ffbdbd;
   color: #000;
   border-radius: 50%;
   justify-content: center;
@@ -23,7 +23,7 @@
   left: 0;
   width: 40vh;
   height: 100vh;
-  background-color: #FFBEDD;
+  background-color: #ffbebe;
   z-index: 1;
 }
 
@@ -41,19 +41,15 @@
 
 
 .caixaDesempenho {
-  background-color: #FFBEDD;
+  background-color: #ffbebe;
   border-radius: 10px;
-  padding: 50px 130px;
+  padding: 100px 130px;
   width: 50%;
-  margin-top: 500px;
+  margin-top: 300px;
   margin-left: 450px; 
 }
 
-.tituloCaixa {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
+
 
 .caixaBranco{
   background-color: aliceblue;
@@ -89,3 +85,5 @@
       font-size: 14px;
       color: #555;
     }
+
+    
